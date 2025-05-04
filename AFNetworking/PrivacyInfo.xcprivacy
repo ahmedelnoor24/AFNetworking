@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSPrivacyCollectedDataTypes</key>
+    <array>
+        <dict>
+            <key>NSPrivacyCollectedDataType</key>
+            <string>NSPrivacyCollectedDataTypeOther</string>
+            <key>NSPrivacyCollectedDataTypeLinked</key>
+            <false/> <!-- Set to `true` if your app links data to the user -->
+            <key>NSPrivacyCollectedDataTypeTracking</key>
+            <false/>
+            <key>NSPrivacyCollectedDataTypePurposes</key>
+            <array>
+                <string>AppFunctionality</string>
+            </array>
+            <key>NSPrivacyCollectedDataTypeDescription</key>
+            <string>AFNetworking is used for network requests. No user data is collected by the SDK itself.</string>
+        </dict>
+    </array>
+</dict>
+</plist>
